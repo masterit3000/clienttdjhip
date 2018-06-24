@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "nativeLanguage": "vi"
+    },
+    "jhipsterVersion": "4.14.4",
+    "baseName": "clienttdjhip",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "authenticationType": "true",
+    "cacheProvider": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "sql",
+    "prodDatabaseType": "sql",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      },
+      {
+        "name": "generator-jhipster-ci",
+        "version": "1.0.0"
+      },
+      {
+        "name": "generator-jhipster-swagger2markup",
+        "version": "1.2.0"
+      },
+      {
+        "name": "generator-jhipster-fx",
+        "version": "0.3.5"
+      },
+      {
+        "name": "generator-jhipster-string-converter",
+        "version": "0.4.2"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "vi",
+    "languages": [
+      "vi",
+      "en"
+    ],
+    "skipServer": true
+  }
+}

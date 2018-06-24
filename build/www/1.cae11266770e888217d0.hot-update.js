@@ -1,0 +1,11 @@
+webpackHotUpdate(1,{
+
+/***/ "./src/main/webapp/app/primeng/buttons/button/buttondemo.route.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar shared_1 = __webpack_require__(\"./src/main/webapp/app/shared/index.ts\");\r\nvar buttondemo_component_1 = __webpack_require__(\"./src/main/webapp/app/primeng/buttons/button/buttondemo.component.ts\");\r\nexports.buttonDemoRoute = {\r\n    path: 'button',\r\n    component: buttondemo_component_1.ButtonDemoComponent,\r\n    data: {\r\n        // authorities: ['ROLE_USER'],\r\n        pageTitle: 'primeng.buttons.button.title'\r\n    },\r\n    canActivate: [shared_1.UserRouteAccessService]\r\n};\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbWFpbi93ZWJhcHAvYXBwL3ByaW1lbmcvYnV0dG9ucy9idXR0b24vYnV0dG9uZGVtby5yb3V0ZS50cz84Y2NhIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQ0EsNEVBQXlEO0FBQ3pELHlIQUE2RDtBQUVoRCx1QkFBZSxHQUFVO0lBQ2xDLElBQUksRUFBRSxRQUFRO0lBQ2QsU0FBUyxFQUFFLDBDQUFtQjtJQUM5QixJQUFJLEVBQUU7UUFDRiw4QkFBOEI7UUFDOUIsU0FBUyxFQUFFLDhCQUE4QjtLQUM1QztJQUNELFdBQVcsRUFBRSxDQUFDLCtCQUFzQixDQUFDO0NBQ3hDLENBQUMiLCJmaWxlIjoiLi9zcmMvbWFpbi93ZWJhcHAvYXBwL3ByaW1lbmcvYnV0dG9ucy9idXR0b24vYnV0dG9uZGVtby5yb3V0ZS50cy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvdXRlIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcbmltcG9ydCB7IFVzZXJSb3V0ZUFjY2Vzc1NlcnZpY2UgfSBmcm9tICcuLi8uLi8uLi9zaGFyZWQnO1xuaW1wb3J0IHsgQnV0dG9uRGVtb0NvbXBvbmVudCB9IGZyb20gJy4vYnV0dG9uZGVtby5jb21wb25lbnQnO1xuXG5leHBvcnQgY29uc3QgYnV0dG9uRGVtb1JvdXRlOiBSb3V0ZSA9IHtcbiAgICBwYXRoOiAnYnV0dG9uJyxcbiAgICBjb21wb25lbnQ6IEJ1dHRvbkRlbW9Db21wb25lbnQsXG4gICAgZGF0YToge1xuICAgICAgICAvLyBhdXRob3JpdGllczogWydST0xFX1VTRVInXSxcbiAgICAgICAgcGFnZVRpdGxlOiAncHJpbWVuZy5idXR0b25zLmJ1dHRvbi50aXRsZSdcbiAgICB9LFxuICAgIGNhbkFjdGl2YXRlOiBbVXNlclJvdXRlQWNjZXNzU2VydmljZV1cbn07XG5cblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gLi9ub2RlX21vZHVsZXMvdHNsaW50LWxvYWRlciEuL3NyYy9tYWluL3dlYmFwcC9hcHAvcHJpbWVuZy9idXR0b25zL2J1dHRvbi9idXR0b25kZW1vLnJvdXRlLnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/main/webapp/app/primeng/buttons/button/buttondemo.route.ts\n");
+
+/***/ })
+
+})
