@@ -2,8 +2,9 @@
 {
     "clienttdjhipApp": {
         "batHo" : {
+            "title": "Bát họ",
             "home": {
-                "title": "Bat Hos",
+                "title": "Bát họ",
                 "createLabel": "Create a new Bat Ho",
                 "createOrEditLabel": "Create or edit a Bat Ho"
             },
@@ -14,7 +15,7 @@
                 "question": "Are you sure you want to delete Bat Ho {{ id }}?"
             },
             "detail": {
-                "title": "Bat Ho"
+                "title": "Bát họ"
             },
             "tienduakhach": "Tienduakhach",
             "tongtien": "Tongtien",

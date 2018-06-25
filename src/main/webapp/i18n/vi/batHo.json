@@ -1,20 +1,20 @@
-
 {
     "clienttdjhipApp": {
-        "batHo" : {
+        "batHo": {
+            "title": "Bát họ",
             "home": {
-                "title": "Bat Hos",
-                "createLabel": "Thêm mới một Bat Ho",
-                "createOrEditLabel": "Thêm mới hoặc cập nhật Bat Ho"
+                "title": "Bát họ",
+                "createLabel": "Thêm mới một Bát họ",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Bát họ"
             },
-            "created": "Một Bat Ho mới được tạo với định danh {{ param }}",
-            "updated": "Một Bat Ho cập nhật với định danh {{ param }}",
-            "deleted": "Một Bat Ho đã xóa với định danh {{ param }}",
+            "created": "Một Bát họ mới được tạo với định danh {{ param }}",
+            "updated": "Một Bát họ cập nhật với định danh {{ param }}",
+            "deleted": "Một Bát họ đã xóa với định danh {{ param }}",
             "delete": {
-                "question": "Bạn có chắc là muốn xóa Bat Ho {{ id }}?"
+                "question": "Bạn có chắc là muốn xóa Bát họ {{ id }}?"
             },
             "detail": {
-                "title": "Bat Ho"
+                "title": "Bát họ"
             },
             "tienduakhach": "Tienduakhach",
             "tongtien": "Tongtien",
