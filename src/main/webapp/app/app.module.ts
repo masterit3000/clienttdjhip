@@ -27,6 +27,7 @@ import {
     ActiveMenuDirective,
     ErrorComponent
 } from './layouts';
+import { VayLaiPageComponent } from './page/vay-lai-page/vay-lai-page.component';
 
 @NgModule({
     imports: [
@@ -47,7 +48,8 @@ import {
         ErrorComponent,
         PageRibbonComponent,
         ActiveMenuDirective,
-        FooterComponent
+        FooterComponent,
+        VayLaiPageComponent
     ],
     providers: [
         ProfileService,

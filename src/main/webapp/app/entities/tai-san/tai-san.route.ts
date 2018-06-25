@@ -11,7 +11,7 @@ export const taiSanRoute: Routes = [
         path: 'tai-san',
         component: TaiSanComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.taiSan.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const taiSanRoute: Routes = [
         path: 'tai-san/:id',
         component: TaiSanDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.taiSan.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const taiSanPopupRoute: Routes = [
         path: 'tai-san-new',
         component: TaiSanPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.taiSan.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const taiSanPopupRoute: Routes = [
         path: 'tai-san/:id/edit',
         component: TaiSanPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.taiSan.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const taiSanPopupRoute: Routes = [
         path: 'tai-san/:id/delete',
         component: TaiSanDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.taiSan.home.title'
         },
         canActivate: [UserRouteAccessService],

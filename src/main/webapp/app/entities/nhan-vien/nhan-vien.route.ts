@@ -11,7 +11,7 @@ export const nhanVienRoute: Routes = [
         path: 'nhan-vien',
         component: NhanVienComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.nhanVien.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const nhanVienRoute: Routes = [
         path: 'nhan-vien/:id',
         component: NhanVienDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.nhanVien.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const nhanVienPopupRoute: Routes = [
         path: 'nhan-vien-new',
         component: NhanVienPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.nhanVien.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const nhanVienPopupRoute: Routes = [
         path: 'nhan-vien/:id/edit',
         component: NhanVienPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.nhanVien.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const nhanVienPopupRoute: Routes = [
         path: 'nhan-vien/:id/delete',
         component: NhanVienDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.nhanVien.home.title'
         },
         canActivate: [UserRouteAccessService],

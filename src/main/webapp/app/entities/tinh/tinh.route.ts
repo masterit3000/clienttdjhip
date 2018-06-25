@@ -11,7 +11,7 @@ export const tinhRoute: Routes = [
         path: 'tinh',
         component: TinhComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.tinh.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const tinhRoute: Routes = [
         path: 'tinh/:id',
         component: TinhDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.tinh.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const tinhPopupRoute: Routes = [
         path: 'tinh-new',
         component: TinhPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.tinh.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const tinhPopupRoute: Routes = [
         path: 'tinh/:id/edit',
         component: TinhPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.tinh.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const tinhPopupRoute: Routes = [
         path: 'tinh/:id/delete',
         component: TinhDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.tinh.home.title'
         },
         canActivate: [UserRouteAccessService],

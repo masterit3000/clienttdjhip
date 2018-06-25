@@ -16,6 +16,7 @@ import { ClienttdjhipLichSuThaoTacHopDongModule } from './lich-su-thao-tac-hop-d
 import { ClienttdjhipThuChiModule } from './thu-chi/thu-chi.module';
 import { ClienttdjhipTaiSanModule } from './tai-san/tai-san.module';
 import { ClienttdjhipAnhTaiSanModule } from './anh-tai-san/anh-tai-san.module';
+import { VayLaiPageComponent } from './vay-lai-page/vay-lai-page.component';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -38,7 +39,7 @@ import { ClienttdjhipAnhTaiSanModule } from './anh-tai-san/anh-tai-san.module';
         ClienttdjhipAnhTaiSanModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
-    declarations: [],
+    declarations: [VayLaiPaageComponent],
     entryComponents: [],
     providers: [],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]

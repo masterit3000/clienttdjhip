@@ -11,7 +11,7 @@ export const thuChiRoute: Routes = [
         path: 'thu-chi',
         component: ThuChiComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.thuChi.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const thuChiRoute: Routes = [
         path: 'thu-chi/:id',
         component: ThuChiDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.thuChi.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const thuChiPopupRoute: Routes = [
         path: 'thu-chi-new',
         component: ThuChiPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.thuChi.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const thuChiPopupRoute: Routes = [
         path: 'thu-chi/:id/edit',
         component: ThuChiPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.thuChi.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const thuChiPopupRoute: Routes = [
         path: 'thu-chi/:id/delete',
         component: ThuChiDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.thuChi.home.title'
         },
         canActivate: [UserRouteAccessService],

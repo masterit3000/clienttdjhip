@@ -11,7 +11,7 @@ export const batHoRoute: Routes = [
         path: 'bat-ho',
         component: BatHoComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.batHo.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const batHoRoute: Routes = [
         path: 'bat-ho/:id',
         component: BatHoDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.batHo.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const batHoPopupRoute: Routes = [
         path: 'bat-ho-new',
         component: BatHoPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.batHo.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const batHoPopupRoute: Routes = [
         path: 'bat-ho/:id/edit',
         component: BatHoPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.batHo.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const batHoPopupRoute: Routes = [
         path: 'bat-ho/:id/delete',
         component: BatHoDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.batHo.home.title'
         },
         canActivate: [UserRouteAccessService],

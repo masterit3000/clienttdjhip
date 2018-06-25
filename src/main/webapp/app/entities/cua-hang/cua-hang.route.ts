@@ -11,7 +11,7 @@ export const cuaHangRoute: Routes = [
         path: 'cua-hang',
         component: CuaHangComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.cuaHang.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const cuaHangRoute: Routes = [
         path: 'cua-hang/:id',
         component: CuaHangDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.cuaHang.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const cuaHangPopupRoute: Routes = [
         path: 'cua-hang-new',
         component: CuaHangPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.cuaHang.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const cuaHangPopupRoute: Routes = [
         path: 'cua-hang/:id/edit',
         component: CuaHangPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.cuaHang.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const cuaHangPopupRoute: Routes = [
         path: 'cua-hang/:id/delete',
         component: CuaHangDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.cuaHang.home.title'
         },
         canActivate: [UserRouteAccessService],

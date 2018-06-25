@@ -51,7 +51,7 @@ export const xaPopupRoute: Routes = [
         path: 'xa/:id/delete',
         component: XaDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.xa.home.title'
         },
         canActivate: [UserRouteAccessService],

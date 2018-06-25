@@ -11,7 +11,7 @@ export const huyenRoute: Routes = [
         path: 'huyen',
         component: HuyenComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.huyen.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const huyenRoute: Routes = [
         path: 'huyen/:id',
         component: HuyenDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.huyen.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const huyenPopupRoute: Routes = [
         path: 'huyen-new',
         component: HuyenPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.huyen.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const huyenPopupRoute: Routes = [
         path: 'huyen/:id/edit',
         component: HuyenPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.huyen.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const huyenPopupRoute: Routes = [
         path: 'huyen/:id/delete',
         component: HuyenDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.huyen.home.title'
         },
         canActivate: [UserRouteAccessService],

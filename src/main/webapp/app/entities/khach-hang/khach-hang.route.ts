@@ -11,7 +11,7 @@ export const khachHangRoute: Routes = [
         path: 'khach-hang',
         component: KhachHangComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.khachHang.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -19,7 +19,7 @@ export const khachHangRoute: Routes = [
         path: 'khach-hang/:id',
         component: KhachHangDetailComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.khachHang.home.title'
         },
         canActivate: [UserRouteAccessService]
@@ -31,7 +31,7 @@ export const khachHangPopupRoute: Routes = [
         path: 'khach-hang-new',
         component: KhachHangPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.khachHang.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -41,7 +41,7 @@ export const khachHangPopupRoute: Routes = [
         path: 'khach-hang/:id/edit',
         component: KhachHangPopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.khachHang.home.title'
         },
         canActivate: [UserRouteAccessService],
@@ -51,7 +51,7 @@ export const khachHangPopupRoute: Routes = [
         path: 'khach-hang/:id/delete',
         component: KhachHangDeletePopupComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            // authorities: ['ROLE_USER'],
             pageTitle: 'clienttdjhipApp.khachHang.home.title'
         },
         canActivate: [UserRouteAccessService],
